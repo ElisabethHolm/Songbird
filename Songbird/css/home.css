@@ -1,0 +1,52 @@
+        .t{
+            width:550px;
+            height: 100px;
+        border:10px solid white;
+        padding: 3px;
+            padding-bottom: 30px;
+            font-size: 25;
+}
+
+.text {
+  color: white;
+    background-color: rgba(50,50,50, 0.1);
+  font-size: 15px;
+  padding: 8px 12px;
+  margin: auto;
+    border: 4px solid white;
+  bottom: 8px;
+  width: 90%;
+    
+}       
+
+.overlay .description{
+    padding: 30px;
+    font-size: 25;
+    color: black;
+    width: 400px;
+    transform: translateX(100px);
+}
+
+.overlay .description .two{
+    transform: translateX(150px);
+}
+
+.overlay li{
+    font-size:27;
+}
+
+.overlay .image1{
+ width: 500px;
+    height: 400px;
+    transform: translateX(100px);
+}
+
+.overlay .image2{
+ width: 425px;
+    height: 425px;
+    transform: translateX(120px) translateY(-20px);
+}
+
+.overlay{
+    display: inline-flex;
+}

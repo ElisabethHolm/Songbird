@@ -1,0 +1,58 @@
+<html>
+    <link rel="stylesheet" href="../css/songrec.css">
+    <link rel="stylesheet" href="../css/general.css">
+<head>
+    <link rel="shortcut icon" href="../images/icon.ico" />
+    <title>Songbird</title>
+</head>
+<body>
+    <ul class="menu">
+    <div class="logo"><li><a href=../html/home.html><img src="../images/logo.png" height="60" width="60" ></a></li></div>
+    <div class = "websites">
+    <li><a href=../html/home.html><b>Home</b></a></li>
+    <li><a href=../html/lyrics.html><b>Lyric Search</b></a></li>
+  <li><a href=../html/songrec.html><b>Song Recommender</b></a></li>
+        <li><a href="../html/choreomachine.html"><b>Choreograph</b></a></li> </div>
+</ul>
+    
+<br/><br/><center><div class = "t"><h1>Song Recommender</h1></div></center>
+    <center><h2>Spicing up your music one song at a time</h2></center>
+<br />
+    
+    <select>
+        <option value="unselected">Select a Genre</option>
+        <option value="topcharts">Top Charts</option>
+        <option value="hiphop">Hip Hop</option>
+        <option value="chillrap">Chill Rap</option>
+        <option value="lofi">Lo-Fi</option>
+        <option value="contemporary">Contemporary</option>
+        <option value="upbeatjazz">Upbeat Jazz</option>
+        <option value="smoothjazz">Smooth Jazz</option>
+        <option value="classical">Classical</option>
+        <option value="pleasant">Pleasant</option>
+</select> <br><br>
+    
+       <div id = "recs">
+  <h1>Recommendations For You</h1>
+           <center>
+<table id="table">
+</table></center>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="../js/songrec.js"></script>
+    
+    
+    <br><br><br><br><br><br><br><br><br><br>
+    <center><form id="getToken">Not working? Go <a href="https://developer.spotify.com/console/get-playlist-tracks/?playlist_id=0VVYqBry2WZ1tIpqjeZoTV&market=&fields=&limit=&offset=" target="_blank">here</a> and copy and paste the <b>new </b>token (bottom of the page) here:
+  <input type="text" name="token" id="token">
+<input type="button" id="button" value="Submit">
+</form>
+    <b>Now</b> try to select a genre. </center>
+    
+    
+    <br><br><br><br><br>
+    <div class="cred"><h><center>Site Author : Elisabeth Holm, 2019</center></h></div>
+</body>
+</html>

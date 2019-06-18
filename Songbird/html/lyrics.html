@@ -1,0 +1,39 @@
+<html>
+    <link rel="stylesheet" href="../css/general.css">
+<head>
+    <link rel="shortcut icon" href="../images/icon.ico" />
+    <title>Songbird</title>
+</head>
+<body>
+    <ul class="menu">
+    <div class="logo"><li><a href=../html/home.html><img src="../images/logo.png" height="60" width="60" ></a></li></div>
+    <div class = "websites">
+    <li><a href=../html/home.html><b>Home</b></a></li>
+    <li><a href=../html/lyrics.html><b>Lyric Search</b></a></li>
+  <li><a href=../html/songrec.html><b>Song Recommender</b></a></li>
+        <li><a href="../html/choreomachine.html"><b>Choreograph</b></a></li> </div>
+</ul>
+<br/><br/><center><div class = "t"><h1>Lyric Search</h1></div></center>
+       <center><h2>Find any song lyrics within seconds</h2></center>
+    <br />
+    
+    <center><form id="search">
+  Song Title:
+  <input type="text" name="title" id="title">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!--this is just to make a space between the two inputs-->
+  Artist (Optional):
+  <input type="text" name="artist" id="artist">
+  <br><br>
+<input type="button" id="button" value="Searchin' Time">
+</form> </center>
+    
+    <br>
+    
+    <center><div id="root"></div></center>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/lyrics.js"></script>
+    
+<br><br><br><br><br>
+    <div class="cred"><h><center>Site Author : Elisabeth Holm, 2019</center></h></div>
+</body>
+</html>

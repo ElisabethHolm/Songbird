@@ -1,0 +1,77 @@
+<html>
+    <link rel="stylesheet" href="../css/choreomachine.css">
+    <link rel="stylesheet" href="../css/general.css">
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="../js/choreomachine.js"></script>
+
+<head>
+    <link rel="shortcut icon" href="../images/icon.ico" />
+    <title>Songbird</title>
+</head>
+<body>
+    <ul class="menu">
+    <div class="logo"><li><a href=../html/home.html><img src="../images/logo.png" height="60" width="60" ></a></li></div>
+    <div class = "websites">
+    <li><a href=../html/home.html><b>Home</b></a></li>
+    <li><a href=../html/lyrics.html><b>Lyric Search</b></a></li>
+  <li><a href=../html/songrec.html><b>Song Recommender</b></a></li>
+        <li><a href="../html/choreomachine.html"><b>Choreograph</b></a></li> </div>
+</ul>
+    
+<br/><br/><center><div class = "t"><h1>Choreo Machine</h1></div></center>
+    <center><h2>Anyone can be a dance choreographer</h2></center>
+    <center><h3>Hint: Not sure what a move looks like? Click on its name</h3></center>
+<br />
+    
+    <div id="workspace">
+        <div id="moveMenu">
+     <button id="newblockbtn">Create new move</button>
+        
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Tour Jete')" target="_blank" id="Tour_Jete">Tour Jete</a> 
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Tilt Jump')" target="_blank" id="Tilt_Jump">Tilt Jump</a> 
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Allusion')" target="_blank" id="Allusion">Allusion</a>
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Passe Hop')" target="_blank" id="Passe_Hop">Passe Hop</a>        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Extension')" target="_blank" id="Extension">Extension</a>
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Butterfly')" target="_blank" id="Butterfly">Butterfly</a>
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Calypso')" target="_blank" id="Calypso">Calypso</a>
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Second Scoop')" target="_blank" id="Second_Scoop">Second Scoop</a>
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Single Right Turn')" target="_blank" id="Single_Right_Turn">Single Right Turn</a>
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Double Right Turn')" target="_blank" id="Double_Right_Turn">Double Right Turn</a>
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Single Left Turn')" target="_blank" id="Single_Left_Turn">Single Left Turn</a>
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Double Left Turn')" target="_blank" id="Double_Left_Turn">Double Left Turn</a>
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Run Downstage')" target="_blank" id="Run_Downstage">Run Downstage</a>
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Run Upstage')" target="_blank" id="Run_Upstage">Run Upstage</a>
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Run Stage Left')" target="_blank" id="Run_Stage_Left">Run Stage Left</a>
+        <textarea placeholder="Description"></textarea></div>
+                <div class="block"><a href="../html/videoViewer.html" onclick="setVid('Run Stage Right')" target="_blank" id="Run_Stage_Right">Run Stage Right</a>
+        <textarea placeholder="Description"></textarea></div>          
+            
+            
+       </div>
+        
+        <a href="../html/videoViewer.html" target="_blank"><input type="button" id="view" value="View Your Dance" onclick="setVideoOrder()"></a>
+        </div>
+        
+    
+
+<br>
+    <div class="cred"><h><center>Site Author : Elisabeth Holm, 2019</center></h></div>
+</body>
+</html>
